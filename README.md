@@ -18,11 +18,20 @@ Instrutions for compiling GLFW as it can be difficult and a bit confusing even i
   11. Select C/C++ langauge.
   12. Select OpenGL
   13. Selec the version of OpenGl which is supported by your GPU.
-  13.1 To find the correct one simply google your GPU name and write OPENGL. You should get the correct version.
   14. Set Profile to CORE. My code runs on Core profile so get that.
   15. Click generate.
-  15.1 If i add extension over time i will edit the  Readme file
-  16. Download zip file
-  17..TO DO.
+  16. Download zip file and extract contents.
+  17. Create a "lib" and "include" folder. These folders will be used every time a new project is started. 
+  18. Put Glad include contents into the the folder.
+  19. Create a empty project in Visual Studio.
+  20. Add glad.c file into project.
+  21. Go to project properties and into VC++ properties.
+  22. Select the include directories in VC++ and enter path to the folder. Make sure to add ";$(IncludePath)"  at the end of path.
+  22. Do the same for library directories. 
+  23. once done, Go to Linker input properties.
+  24. Add "glfw3.lib" and "glfw3.lib" into additnal files.
+  25. Set up project as a 64bit program and also make sure it is in Debug mode.
+  26. You are now ready to write OpenGL Code.
+  
   
   
