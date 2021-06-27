@@ -1,7 +1,7 @@
 # OpenGL
-My OpenGL starter code with the help of Gland and GLFW <d>
+My OpenGL starter code with the help of Gland and GLFW.<d>
 All the projects of OPENGL are made with the tutorial of LearnOpenGL:https://learnopengl.com/Code-repository<br>
-main.cpp contains the code required to create a GLFW Window where everything we do will be seen<br/>
+main.cpp contains the code required to create a GLFW Window where everything we do will be seen.<br/>
   
 I suggest compiling GLFW yourself<br>
 Instrutions for compiling GLFW as it can be difficult and a bit confusing even if using the LearnOpenGL tutorial:
